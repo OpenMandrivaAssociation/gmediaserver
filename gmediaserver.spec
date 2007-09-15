@@ -4,7 +4,7 @@
 Name: 	 	%{name}
 Summary: 	Sends music to UPnP media devices
 Version: 	%{version}
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 
 Source:		http://savannah.nongnu.org/download/gmediaserver/%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/gmediaserver/
@@ -17,7 +17,6 @@ BuildRequires:	libmagic-devel
 BuildRequires:	libtaglib-devel
 BuildRequires:  flex
 BuildRequires:  bison
-BuildRequires:  automake1.8
 
 %description
 GMediaServer is a UPnP music media server. It implements the server component
@@ -34,7 +33,7 @@ devices (including software based) may work as well.
 %setup -q
 
 %build
-cp %_datadir/automake-1.9/mkinstalldirs build-aux 
+cp %_datadir/automake-1.10/mkinstalldirs build-aux 
 %configure2_5x
 %make
 										
