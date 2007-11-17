@@ -1,10 +1,10 @@
 %define name	gmediaserver
-%define version	0.12.0
+%define version	0.13.0
 
 Name: 	 	%{name}
 Summary: 	Sends music to UPnP media devices
 Version: 	%{version}
-Release: 	%mkrel 2
+Release: 	%mkrel 1
 
 Source:		http://savannah.nongnu.org/download/gmediaserver/%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/gmediaserver/
@@ -33,10 +33,10 @@ devices (including software based) may work as well.
 %setup -q
 
 %build
-cp %_datadir/automake-1.10/mkinstalldirs build-aux 
+cp %_datadir/automake-1.10/mkinstalldirs build-aux
 %configure2_5x
 %make
-										
+
 %install
 rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
