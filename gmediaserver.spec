@@ -10,7 +10,6 @@ Source:		http://savannah.nongnu.org/download/gmediaserver/%{name}-%{version}.tar
 URL:		http://www.nongnu.org/gmediaserver/
 License:	GPL
 Group:		Sound
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libupnp-devel
 BuildRequires:  libid3-devel
 BuildRequires:	libmagic-devel
