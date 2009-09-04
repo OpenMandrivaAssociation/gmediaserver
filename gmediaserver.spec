@@ -4,7 +4,7 @@
 Name: 	 	%{name}
 Summary: 	Sends music to UPnP media devices
 Version: 	%{version}
-Release: 	%mkrel 3
+Release: 	%mkrel 4
 
 Source:		http://savannah.nongnu.org/download/gmediaserver/%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/gmediaserver/
