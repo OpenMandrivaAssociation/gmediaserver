@@ -33,7 +33,7 @@ devices (including software based) may work as well.
 %setup -q
 
 %build
-cp %_datadir/automake-1.10/mkinstalldirs build-aux
+cp %_datadir/automake-1.1?/mkinstalldirs build-aux
 %configure2_5x
 %make
 
