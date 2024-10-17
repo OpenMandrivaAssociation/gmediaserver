@@ -7,7 +7,7 @@ Version: 	%{version}
 Release: 	%mkrel 4
 
 Source:		http://savannah.nongnu.org/download/gmediaserver/%{name}-%{version}.tar.bz2
-URL:		http://www.nongnu.org/gmediaserver/
+URL:		https://www.nongnu.org/gmediaserver/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
