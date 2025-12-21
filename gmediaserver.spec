@@ -11,6 +11,11 @@ URL:		https://www.nongnu.org/gmediaserver/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libupnp-devel
 BuildRequires:  libid3-devel
 BuildRequires:	libmagic-devel
